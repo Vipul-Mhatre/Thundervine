@@ -1,0 +1,8 @@
+node_modules
+env
+.env
+venv
+
+test.py
+# model.py
+carbon_emission_model.pkl
