@@ -6,5 +6,6 @@ venv
 
 test.py
 # model.py
+data/Household_power_consumption.csv
 backend/carbon_emission_model.pkl
 backend/Household_power_consumption.pkl
