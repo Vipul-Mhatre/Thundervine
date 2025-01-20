@@ -38,7 +38,11 @@ const PredictionForm = () => {
     }
   };
 
-  const bodyTypeOptions = ["Sedan", "SUV", "Truck", "Coupe", "Hatchback"];
+  const bodyTypeOptions = [ "Obese", 
+    "Underweight", 
+    "Normal", 
+    "Overweight"
+  ];
   const sexOptions = ["Male", "Female", "Other"];
   const dietOptions = ["Omnivore", "Vegetarian", "Vegan"];
   const heatingEnergySourceOptions = ["Gas", "Electricity", "Solar", "Other"];

@@ -2,7 +2,9 @@ node_modules
 env
 .env
 venv
+.venv
 
 test.py
 # model.py
-carbon_emission_model.pkl
+backend/carbon_emission_model.pkl
+backend/Household_power_consumption.pkl
