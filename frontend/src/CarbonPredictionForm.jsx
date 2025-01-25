@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const PredictionForm = () => {
+const CarbonPredictionForm = () => {
   const [formData, setFormData] = useState({
     "Body Type": "",
     "Sex": "",
@@ -252,4 +252,4 @@ const styles = {
   },
 };
 
-export default PredictionForm;
+export default CarbonPredictionForm;

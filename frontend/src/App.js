@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import CarbonPredictionForm from './components/CarbonPredictionForm';
-import ElectricityPredictionForm from './components/ElectricityPredictionForm';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import CarbonPredictionForm from './CarbonPredictionForm';
+import ElectricityPredictionForm from './ElectricityPredictionForm';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
             <li><Link to="/electricity">Electricity Bill Prediction</Link></li>
           </ul>
         </nav>
-        <Switch>
-          <Route path="/carbon" component={CarbonPredictionForm} />
-          <Route path="/electricity" component={ElectricityPredictionForm} />
-        </Switch>
+        <Routes>
+          <Route path="/carbon" element={<CarbonPredictionForm />} />
+          <Route path="/electricity" element={<ElectricityPredictionForm />} />
+        </Routes>
       </div>
     </Router>
   );
