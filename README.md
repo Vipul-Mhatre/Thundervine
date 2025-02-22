@@ -164,23 +164,4 @@ Thundervine-main/
 
 ---
 
-## 🛡️ License
 
-This project is licensed under the **MIT License**. See the LICENSE file for more details.
-
----
-
-## 🌟 Contributors
-
-- **Your Name** - [GitHub Profile](https://github.com/yourprofile)  
-  Contributions are welcome! Please submit a pull request for improvements or new features.
-
----
-
-## 📞 Contact
-
-For inquiries or further information, reach out via:
-- **Email**: your-email@example.com
-- **GitHub Issues**: Open an issue on the [project repository](https://github.com/yourprofile/Thundervine-main).
-
----
